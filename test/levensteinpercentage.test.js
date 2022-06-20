@@ -9,4 +9,9 @@ describe('Levenstein Percentage Tests', function () {
         expect(levenstein.levenstein_percentage('abc', 'abd')).to.be.below(100);
     }
     );
+    it('should return 50 for strings that are half way similar', function () {
+        expect(levenstein.levenstein_percentage('abcd', 'ab')).to.equal(50);
+    }
+);
+
 });

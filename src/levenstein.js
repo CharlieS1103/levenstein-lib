@@ -39,10 +39,13 @@ class Levenstein {
         * @param {string} str2
         * @returns {number}
         */
-    levenstein_percentage(str1, str2) {
+    levenstein_percentage(str1, str2, max) {
+        if (max === undefined) {
+            max = Math.max(str1.length, str2.length);
+        }
        var levDistance = this.calc_levenstein(str1, str2);
-        const percentage = (this.Max - levDistance) / this.Max * 100;
-        console.log("Percentage: " + percentage);
+        var percentage = 100 - 100 * levDistance / max
+        console.log(percentage)
         return percentage;
     }
 }
