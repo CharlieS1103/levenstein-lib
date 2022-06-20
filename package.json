@@ -1,0 +1,31 @@
+{
+  "name": "levenstein-lib",
+  "version": "1.0.0",
+  "description": "A library to handle all things relating to levenstein distance",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlieS1103/levenstein-lib.git"
+  },
+  "keywords": [
+    "levenstein",
+    "similirarity"
+  ],
+  "author": "CharlieS1103",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CharlieS1103/levenstein-lib/issues"
+  },
+  "homepage": "https://github.com/CharlieS1103/levenstein-lib#readme",
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "expect.js": "^0.3.1"
+  }
+}
