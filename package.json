@@ -1,8 +1,8 @@
 {
   "name": "levenstein-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to handle all things relating to levenstein distance",
-  "main": "index.js",
+  "main": "src/levenstein.js",
   "scripts": {
     "test": "nyc mocha test/**/*.test.js"
   },
